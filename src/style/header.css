@@ -2,3 +2,38 @@
     height: 100vh;
     background: url('../image/bg/header_bg.png') no-repeat;
 }
+
+.header_select {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 500px;
+}
+
+.header_upper_text {
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.header_downer_text {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 15px;
+    margin: 0 0 30px 0;
+}
+
+.header_button {
+    background-color: #604D8D;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    width: 280px;
+    height: 70px;
+    font-size: 28px;
+}
