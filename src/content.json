@@ -1,0 +1,14 @@
+{
+    "models": [
+        {"id": "1", "name": "Ева", "photo": "1.jpg"},
+        {"id": "2", "name": "Полина", "photo": "2.jpg"},
+        {"id": "3", "name": "Милана", "photo": "3.jpg"},
+        {"id": "4", "name": "Александра", "photo": "4.jpg"},
+        {"id": "5", "name": "Алиса", "photo": "5.jpg"},
+        {"id": "6", "name": "Ксения", "photo": "1.jpg"},
+        {"id": "7", "name": "Вероника", "photo": "2.jpg"},
+        {"id": "8", "name": "Кристина", "photo": "3.jpg"},
+        {"id": "9", "name": "Евгения", "photo": "4.jpg"},
+        {"id": "10", "name": "Дарья", "photo": "5.jpg"}
+    ]
+}
