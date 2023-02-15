@@ -3,6 +3,7 @@
     background-color: #604D8D;
     height: 70px;
     width: 100%;
+    z-index: 99;
 }
 
 .nav_container {

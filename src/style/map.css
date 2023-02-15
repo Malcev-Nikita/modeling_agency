@@ -1,0 +1,12 @@
+.map_head{
+    margin: 70px 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.map_container{
+    margin-bottom: 70px;
+}

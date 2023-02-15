@@ -1,0 +1,28 @@
+.footer {
+    background-color: #604D8D;
+    height: 100px;
+    width: 100%;
+}
+
+.footer_messanger {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_item {
+    color: #fff;
+    height: 30pt;
+}
+
+.footer_icon {
+    display: inline-block;
+    /* margin-top: 10px; */
+}
+
+.footer_link {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 0 0 10px;
+}

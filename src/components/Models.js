@@ -1,5 +1,4 @@
 import '../style/models.css';
-import * as fs from 'node:fs/promises';
 
 function Models() {
     return (
@@ -13,13 +12,6 @@ function Models() {
             </div>
         </section>
     );
-}
-
-function ModelsItem() {
-    const json = fs.readFileSync('../content.json');
-    const parse = JSON.parse(json);
-
-    console.log(parse);
 }
 
 export default Models;

@@ -1,0 +1,15 @@
+.aboutus_container{
+    text-align: center;
+}
+.aboutus_head{
+    margin: 70px 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.aboutus_text{
+    font-size: 24px;
+    width: 80%;
+    margin: 0 auto;
+}
