@@ -4,6 +4,7 @@ import Models from "./components/Models";
 import AboutUs from "./components/AboutUs";
 import Map from "./components/Map";
 import Footer from "./components/Footer";
+import UpperButton from "./components/UpperButton";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutUs/>
       <Map/>
       <Footer/>
+      <UpperButton/>
     </div>
   );
 }

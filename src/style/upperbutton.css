@@ -1,0 +1,18 @@
+.upperbutton_section {
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: #604D8D;
+}
+
+.upperbutton_link { 
+    border-radius: 100%;
+    width: 70px;
+    height: 70px; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}

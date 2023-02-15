@@ -1,3 +1,10 @@
+#map::before {
+    display: block;
+	content: "";
+	height: 70px;
+	margin: -70px 0 0;
+} 
+
 .map_head{
     margin: 70px 0;
     font-size: 36px;

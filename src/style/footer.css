@@ -1,7 +1,16 @@
 .footer {
+    display: flex;
+    align-items: center;
     background-color: #604D8D;
-    height: 100px;
+    height: 165px;
     width: 100%;
+}
+
+.footer_container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .footer_messanger {
@@ -10,13 +19,14 @@
 }
 
 .footer_item {
+    display: flex;
+    align-items: center;
     color: #fff;
-    height: 30pt;
+    height: 40pt;
 }
 
 .footer_icon {
     display: inline-block;
-    /* margin-top: 10px; */
 }
 
 .footer_link {
@@ -25,4 +35,14 @@
     text-decoration: none;
     color: #fff;
     margin: 0 0 0 10px;
+}
+
+.footer_socials img {
+    position: absolute;
+    right: 0;
+}
+
+.footer_socials .footer_link {
+    position: absolute;
+    right: 43px;
 }
