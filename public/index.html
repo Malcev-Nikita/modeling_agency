@@ -13,5 +13,24 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      window.addEventListener('scroll', function(e) {
+        const upparrow = document.getElementsByClassName('upperbutton_section')[0]
+        const nav_item = document.querySelectorAll('.nav_item[href^="#"]')
+        const centerY = document.documentElement.clientHeight / 5;
+        const centerX = document.documentElement.clientWidth / 2;
+        const elem = document.elementFromPoint(centerX, centerY);
+
+        window.pageYOffset > 700 ? upparrow.classList.remove("upperbutton_section_nodisplay") : upparrow.classList.add("upperbutton_section_nodisplay")
+        window.pageYOffset < 300 ? nav_item[0].classList.remove('nav_item_active') : '';
+
+        if (elem.id != '') {
+          for (let i = 0; i < nav_item.length; i++) nav_item[i].classList.remove('nav_item_active');
+
+          document.querySelector(`.nav_item[href^="#${elem.id}"]`).classList.add('nav_item_active');
+        }
+      });
+    </script>
   </body>
 </html>

@@ -20,3 +20,99 @@
     text-align: center;
     text-decoration: none;
 }
+
+.nav_item {
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 1s;
+    position: relative;
+}
+
+.nav_item:hover:after {
+    width: 80%;
+    margin: 0 10% 0 0;
+}
+
+.nav_item:hover:before {
+    width: 80%;
+    margin: 0 10% 0 0;
+}
+
+.nav_item:after {
+    content: "";
+    bottom: 10px;
+    left: 10%;
+    position: absolute;
+    background-color: #fff;
+    height: 4px;
+    width: 0;
+    transition: all 0.5s;
+}
+
+.nav_item:before {
+    content: attr(data-name);
+    position: absolute;
+    bottom: -4px;
+    left: 10%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    white-space: nowrap;
+    text-transform: uppercase;
+    width: 0%;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.nav_item_active {
+    color: #fff;
+    transition: all 0s;
+}
+
+.nav_item_active:after {
+    content: "";
+    left: 10%;
+    position: absolute;
+    background-color: #fff;
+    height: 4px;
+    width: 80%;
+}
+
+.nav_item_active:hover:before {
+    width: 0;
+    transition: all 0s;
+}
+
+.nav_container:first-child {
+    animation: nav-animation 0.5s;
+}
+
+.nav_container:nth-child(2) {
+    animation: nav-animation 1s;
+}
+
+.nav_container:nth-child(3) {
+    animation: nav-animation 1.5s;
+}
+
+.nav_container:nth-child(4) {
+    animation: nav-animation 2s;
+}
+
+.nav_container:nth-child(5) {
+    animation: nav-animation 2.5s;
+}
+
+@keyframes nav-animation {
+    from {
+        opacity: 1;
+        transform: translate(0, 200%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}

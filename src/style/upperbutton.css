@@ -6,6 +6,12 @@
     width: 70px;
     height: 70px;
     background-color: #604D8D;
+    animation: uparrowView 0.5s ease-in-out;
+}
+
+.upperbutton_section_nodisplay {
+    transform: translateX(300px);
+    animation: uparrowNoView 0.3s ease-in-out;
 }
 
 .upperbutton_link { 
@@ -15,4 +21,32 @@
     justify-content: center;
     align-items: center;
     display: flex;
+}
+
+@keyframes uparrowView {
+    0% {
+        transform: translateX(300px);
+    }
+
+    70% {
+        transform: translateX(-30px);
+    }
+
+    90% {
+        transform: translateX(10px);
+    }
+    
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes uparrowNoView {
+    0% {
+        transform: translateX(0px);
+    }
+    
+    100% {
+        transform: translateX(300px);
+    }
 }

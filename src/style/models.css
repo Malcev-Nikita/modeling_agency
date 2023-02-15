@@ -108,6 +108,7 @@
 .models_button:after {
     background: #FFF;
     border: 0px solid #000;
+    border-radius: 100%;
     content: "";
     height: 155px;
     left: -75px;
