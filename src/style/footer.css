@@ -25,16 +25,12 @@
     height: 40pt;
 }
 
-.footer_icon {
-    display: inline-block;
-}
-
 .footer_link {
     display: inline-block;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
     color: #fff;
-    margin: 0 0 0 10px;
+    margin: 0 0 0 8px;
 }
 
 .footer_socials img {
@@ -44,5 +40,9 @@
 
 .footer_socials .footer_link {
     position: absolute;
-    right: 43px;
+    right: 30px;
+}
+
+.footer img {
+    width: 23px;
 }

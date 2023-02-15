@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Nav/>
       <Header/>
-      {/* <Models /> */}
+      <Models />
       <AboutUs/>
       <Map/>
       <Footer/>

@@ -7,7 +7,7 @@ function Header() {
                 <div className='header_select'>
                     <p className='header_upper_text'>Профессиональные</p>
                     <p className='header_downer_text'>Модели</p>
-                    <button className='header_button'>Выбрать модель</button>
+                    <button className='header_button'><span>Выбрать модель</span></button>
                 </div>
             </div>
         </header>
