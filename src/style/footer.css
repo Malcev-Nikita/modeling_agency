@@ -43,6 +43,29 @@
     right: 30px;
 }
 
-.footer img {
+.footer_item img {
     width: 23px;
+}
+
+.footer_container .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer_container .logo_link {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer_messangers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

@@ -90,6 +90,10 @@
     cursor: pointer;
 }
 
+.models_button_noDisplay {
+    display: none;
+}
+
 .models_button:hover {
     border: 4px solid #666;
     background-color: #FFF;

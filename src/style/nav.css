@@ -6,8 +6,23 @@
     z-index: 99;
 }
 
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo_link {
+    width: 200px;
+    height: 70px;
+    position: absolute;
+    left: 0;
+}
+
 .nav_container {
     display: flex;
+    position: relative;
     justify-content: center;
     line-height: 70px;
 }

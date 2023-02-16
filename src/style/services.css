@@ -1,0 +1,11 @@
+.services {
+    text-align: center;
+}
+
+.services_header {
+    margin: 70px 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}

@@ -17,3 +17,7 @@
 .map_container{
     margin-bottom: 70px;
 }
+
+.map_iframe {
+    border-radius: 10px;
+}
