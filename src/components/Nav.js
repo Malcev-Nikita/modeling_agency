@@ -1,5 +1,5 @@
 import '../style/nav.css';
-import logo from '../image/img/logoipsum.svg'
+// import logo from '../image/img/logoipsum.svg'
 
 function Nav() {
     return (

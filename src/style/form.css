@@ -28,9 +28,27 @@
     font-size: 20px;
     padding: 0 0 0 10px;
     letter-spacing: 1.2px;
+    border-radius: 9px;
+    border: 2px solid grey;
     font-family: -apple-system, BlinkMacSystemFont, 'Nunito', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
     font-weight: 600;
+}
+
+.no_valid {
+    border: 2px solid red
+}
+
+.no_valid:focus {
+    outline-color: red;
+}
+
+.valid {
+    border: 2px solid green
+}
+
+.valid:focus {
+    outline-color: green;
 }
 
 .form_textarea {
@@ -43,6 +61,8 @@
     letter-spacing: 1.2px;
     padding: 10px 0 0 10px;
     margin: 10px 0;
+    border: 2px solid grey;
+    border-radius: 9px;
     font-family: -apple-system, BlinkMacSystemFont, 'Nunito', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
     font-weight: 600;
