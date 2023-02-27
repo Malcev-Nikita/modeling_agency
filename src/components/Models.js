@@ -31,7 +31,7 @@ class Models extends React.Component {
                         <div className={`model_content model_${model.id} DisplayNone`} onMouseOver={() => MouseOver(model.id)} onMouseLeave={() => MouseDown(model.id)}>
                             <h4 className='model_name'>{model.name}</h4>
                             <p className='model_descr'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum consectetur dui, et condimentum nulla luctus ac.</p>
-                            <button className='model_button'><span>Выбрать модель</span></button>
+                            <button className='model_button' onClick={() => window.location.href = '#form'}><span>Выбрать модель</span></button>
                         </div>
                     </div>
                 )
@@ -47,7 +47,7 @@ class Models extends React.Component {
                         <div className={`model_content model_${model.id} DisplayNone`} onMouseOver={() => MouseOver(model.id)} onMouseLeave={() => MouseDown(model.id)}>
                             <h4 className='model_name'>{model.name}</h4>
                             <p className='model_descr'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum consectetur dui, et condimentum nulla luctus ac.</p>
-                            <button className='model_button'><span>Выбрать модель</span></button>
+                            <button className='model_button' onClick={() => window.location.href = '#form'}><span>Выбрать модель</span></button>
                         </div>
                     </div>
                 )

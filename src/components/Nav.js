@@ -6,10 +6,11 @@ function Nav() {
         <nav className='nav'>
             <div className='container'>
                 <div className='nav_container'>
-                    <a className='logo_link' href='#main'><img src={logo} alt='logo' className='logo' /></a>
+                    {/* <a className='logo_link' href='#main'><img src={logo} alt='logo' className='logo' /></a> */}
                     <a className='nav_item' href='#models' onClick={(e) => NavActive(e)}>Модели</a>
                     <a className='nav_item' href="#advantages" onClick={(e) => NavActive(e)}>Преимущества</a>
                     <a className='nav_item' href='#aboutus' onClick={(e) => NavActive(e)}>О нас</a>
+                    <a className='nav_item' href='#form' onClick={(e) => NavActive(e)}>Обратная связь</a>
                     <a className='nav_item' href='#map' onClick={(e) => NavActive(e)}>Местонахождение</a>
                 </div>
             </div>

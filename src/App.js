@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import Models from "./components/Models";
 import Advantages from "./components/Advantages";
 import AboutUs from "./components/AboutUs";
+import Form from "./components/Form";
 import Map from "./components/Map";
 import Footer from "./components/Footer";
 import UpperButton from "./components/UpperButton";
@@ -15,6 +16,7 @@ function App() {
       <Models/>
       <Advantages/>
       <AboutUs/>
+      <Form/>
       <Map/>
       <Footer/>
       <UpperButton/>
