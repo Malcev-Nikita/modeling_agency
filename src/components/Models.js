@@ -36,9 +36,9 @@ class Models extends React.Component {
                     </div>
                 )
             }
-            else if (!this.state.showMore) {
-                return ''
-            }
+            
+            else if (!this.state.showMore) return
+
             else {
                 return (
                     <div className={`model_container`} >

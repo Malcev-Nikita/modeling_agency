@@ -6,7 +6,13 @@
     width: 70px;
     height: 70px;
     background-color: #604D8D;
+    transition: 0.7s;
     animation: uparrowView 0.5s ease-in-out;
+}
+
+.upperbutton_section_up {
+    transition: 0.7s;
+    bottom: 170px;
 }
 
 .upperbutton_section_nodisplay {
@@ -53,4 +59,28 @@
     100% {
         transform: translateX(300px);
     }
+}
+
+@media (max-width: 576px) {
+
+}
+  
+@media (min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+}
+
+@media (min-width: 1401px) {
+
 }

@@ -26,6 +26,7 @@
         const elem = document.elementFromPoint(centerX, centerY);
 
         window.pageYOffset > 700 ? upparrow.classList.remove("upperbutton_section_nodisplay") : upparrow.classList.add("upperbutton_section_nodisplay")
+        window.pageYOffset > document.documentElement.scrollHeight - document.documentElement.clientHeight - 110 ? upparrow.classList.add("upperbutton_section_up") : upparrow.classList.remove("upperbutton_section_up")
         window.pageYOffset < 300 ? nav_item[0].classList.remove('nav_item_active') : '';
 
         if (elem.id != '') {
