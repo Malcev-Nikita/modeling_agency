@@ -55,8 +55,9 @@
 }
 
 .footer_container .logo_link {
-    width: 200px;
-    height: 70px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 50px;
     position: absolute;
     left: 50%;
     top: 50%;

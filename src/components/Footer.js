@@ -22,7 +22,7 @@ function Footer() {
                         </div>
                     </div>
 
-                    <a className='logo_link' href='#main'><img src={logo} alt='logo' className='logo' /></a>
+                    <a className='logo_link' href='#main'>Glamour</a>
 
                     <div className='footer_socials'>
                         <div className='footer_item'>
