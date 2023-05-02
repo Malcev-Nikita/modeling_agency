@@ -25,6 +25,7 @@
     position: relative;
     justify-content: center;
     line-height: 70px;
+    position: relative;
 }
 
 .nav_item {
@@ -119,6 +120,72 @@
 
 .nav_container:nth-child(5) {
     animation: nav-animation 2.5s;
+}
+
+.nav__toggle-menu {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	float: right;
+	height: 50px;
+	outline: none;
+	padding: 0;
+	pointer-events: initial;
+	vertical-align: middle;
+	width: 50px;
+	z-index: 1110;
+    margin-top: 10px;
+}
+
+.nav__toggle-menu span {
+	background-color: #fff;
+	content: "";
+	display: block;
+	height: 2px;
+	left: calc(50% - 13px );
+	position: absolute;
+	top: calc(50% - 1px );
+	transform-origin: 50% 50%;
+	transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
+	width: 26px;
+}
+
+.nav__toggle-menu span:before, .nav__toggle-menu span:after {
+	background-color: #fff;
+	content: "";
+	display: block;
+	height: 2px;
+	position: absolute;
+	transform-origin: 50% 50%;
+	transition: background-color 0.2s ease-in-out, top 0.2s 0.2s ease-out, transform 0.2s linear;
+	width: 26px;
+}
+
+.nav__toggle-menu span:before {
+	top: 7px;
+}
+
+.nav__toggle-menu span:after {
+	top: -7px;
+}
+
+.nav__toggle-menu.active span {
+	background-color: transparent;
+	transition: background 0.2s ease-out;
+}
+
+.nav__toggle-menu.active span:before, .nav__toggle-menu.active span:after {
+	transition: top 0.2s ease-out, transform 0.2s 0.2s ease-out;
+}
+
+.nav__toggle-menu.active span:before {
+	top: 0;
+	transform: rotate3d(0, 0, 1, -45deg);
+}
+
+.nav__toggle-menu.active span:after {
+	top: 0;
+	transform: rotate3d(0, 0, 1, 45deg);
 }
 
 @keyframes nav-animation {

@@ -8,9 +8,8 @@
 .header_select {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     text-align: center;
-    width: 500px;
+    max-width: 500px;
 }
 
 .header_upper_text {
@@ -84,29 +83,4 @@
     left: 120%;
     -webkit-transform: rotate(40deg);
             transform: rotate(40deg);
-}
-
-
-@media (max-width: 576px) {
-
-}
-  
-@media (min-width: 577px) and (max-width: 768px) {
-
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-
-}
-
-@media (min-width: 993px) and (max-width: 1200px) {
-
-}
-
-@media (min-width: 1201px) and (max-width: 1400px) {
-
-}
-
-@media (min-width: 1401px) {
-
 }

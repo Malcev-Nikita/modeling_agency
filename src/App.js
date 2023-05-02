@@ -7,6 +7,7 @@ import Form from "./components/Form";
 import Map from "./components/Map";
 import Footer from "./components/Footer";
 import UpperButton from "./components/UpperButton";
+import Burger from "./components/Burger";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Map/>
       <Footer/>
       <UpperButton/>
+      <Burger/>
     </div>
   );
 }

@@ -2,14 +2,12 @@
     display: flex;
     align-items: center;
     background-color: #604D8D;
-    height: 165px;
     width: 100%;
 }
 
 .footer_container {
     position: relative;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -33,16 +31,6 @@
     margin: 0 0 0 8px;
 }
 
-.footer_socials img {
-    position: absolute;
-    right: 0;
-}
-
-.footer_socials .footer_link {
-    position: absolute;
-    right: 30px;
-}
-
 .footer_item img {
     width: 23px;
 }
@@ -51,16 +39,6 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.footer_container .logo_link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 50px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
     transform: translate(-50%, -50%);
 }
 
