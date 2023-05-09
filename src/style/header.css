@@ -1,23 +1,8 @@
-.header {
-    height: 100vh;
-    background: url('../image/bg/header_bg.png') no-repeat;
-    background-attachment: fixed;
-    background-position-x: center;
-}
-
 .header_select {
     position: absolute;
     top: 50%;
     text-align: center;
     max-width: 500px;
-}
-
-.header_upper_text {
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0;
-    font-size: 28px;
-    font-weight: 200;
 }
 
 .header_downer_text {

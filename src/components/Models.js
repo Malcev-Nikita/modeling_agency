@@ -23,7 +23,7 @@ class Models extends React.Component {
     render () {
         const data = ModelsItem();
         const model = data.map((model) => {
-            if (!this.state.showMore && model.id <= 8) {
+            if (!this.state.showMore && model.id <= 4) {
                 return (
                     <div className={`model_container`} >
                         <img src={model.photo} alt={model.name} className={`model_img model_img_${model.id}`} onMouseOver={() => MouseOver(model.id)} onMouseLeave={() => MouseDown(model.id)} />

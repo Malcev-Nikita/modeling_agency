@@ -71,6 +71,94 @@ code {
 	text-transform: uppercase;
 }
 
+.header {
+  height: 100vh;
+  background: url('../image/bg/header_bg.png') no-repeat;
+  background-attachment: fixed;
+  background-position-x: center;
+}
+
+.header_upper_text {
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 200;
+}
+
+.upperbutton_section {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  background-color: #604D8D;
+  transition: 0.7s;
+  animation: uparrowView 0.5s ease-in-out;
+}
+
+.upperbutton_link { 
+  border-radius: 100%;
+  width: 60px;
+  height: 60px; 
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.upperbutton_link img { 
+  width: 45%;
+}
+
+.form_input {
+  height: 40px;
+  margin: 10px 0;
+  width: 70%;
+  font-size: 20px;
+  padding: 0 0 0 10px;
+  letter-spacing: 1.2px;
+  border-radius: 9px;
+  border: 2px solid grey;
+  font-family: -apple-system, BlinkMacSystemFont, 'Nunito', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  font-weight: 600;
+}
+
+.form_textarea {
+  overflow: hidden;
+  min-height: 100px;
+  max-height: 400px;
+  min-width: 70%;
+  max-width: 70%;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  padding: 10px 0 0 10px;
+  margin: 10px 0;
+  border: 2px solid grey;
+  border-radius: 9px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Nunito', 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  font-weight: 600;
+}
+
+.footer_item img {
+  width: 23px;
+}
+
+.footer_messangers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutus_text{
+  font-size: 24px;
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media (min-width: 1401px) {
   .container {
     width: 1320px;
@@ -175,10 +263,63 @@ code {
 
 @media (max-width: 576px) {
   .container {
-    width: 100vw;
+    width: 98vw;
   }
 
   #menu .main-nav a {
     font-size: 1.5rem;
   }
+
+  .header {
+    background-position-x: 0%;
+  }
+
+  .header_upper_text {
+    font-weight: 300;
+  }
+
+  .form_input {
+    width: 80%;
+  }
+
+  .form_textarea {
+    min-width: 80%;
+    max-width: 80%;
+  }
+
+  .footer_container .logo_link {
+    display: none;
+  }
+  
+  .footer_socials .footer_link {
+    display: none;
+  }
+
+  .footer_item img {
+    width: 30px;
+  }
+
+  .footer_socials {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+  }
+
+  .footer {
+    height: 260px;
+  }
+
+  .footer_messangers {
+    padding-top: 30px;
+  }
+
+  iframe {
+    height: 300px;
+  }
+
+  .aboutus_text{
+    font-size: 18px;
+    width: 90%;
+    margin: 0 auto;
+}
 }
